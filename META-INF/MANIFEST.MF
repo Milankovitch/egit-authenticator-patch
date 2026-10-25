@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EGit Authenticator Patch
+Bundle-SymbolicName: io.github.milankovitch.egitauthpatch;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: io.github.milankovitch.egitauthpatch.Activator
+Bundle-Vendor: Milankovitch
+Automatic-Module-Name: io.github.milankovitch.egitauthpatch
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.equinox.security
+Import-Package: org.osgi.framework,
+ org.osgi.service.prefs
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-ActivationPolicy: lazy
